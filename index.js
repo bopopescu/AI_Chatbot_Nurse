@@ -9,11 +9,11 @@ app.use(bodyParser.urlencoded({
 }));
 const verificationController = require('./controllers/verification');
 const messageWebhookController = require('./controllers/messageWebhook');
-const FB_VERIFY_TOKEN = 'laucarls'
-const FB_ACCESS_TOKEN = 'EAAEMh7AXLD0BAPIFbQMrs8R8cWVZBtBEclBAM0ZBZCTcYpfp8XZBYPLGQZBSbgYUZAzvKFvu15itt1LWmc4iXuOVYa0C7kooLO3qOjrTubeOBrgkGKJ0lPuMWaZA9LACfm3TgLoPcT9n00xPC0jeuZBesnlnwKrWmbAJSEcDmuT5ogZDZD';
-const FB_APP_SECRET = '8bc547ce6d425e2a578a1dc314df36de'
+const FB_VERIFY_TOKEN = 'xx'
+const FB_ACCESS_TOKEN = 'xxx';
+const FB_APP_SECRET = 'xx'
 const request = require('request');
-const DF_CLIENT_TOKEN = 'ece4a156251143d898f8e2579e469e33'
+const DF_CLIENT_TOKEN = 'xx'
 function isEmpty(obj) {
   for (var prop in obj) {
     if (obj.hasOwnProperty(prop))
